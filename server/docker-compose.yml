@@ -6,7 +6,7 @@ services:
     restart: always
     build: .
     ports:
-      - 80:80
+      - 7020:80
     volumes:
       - myazo-data:/app/data
 
